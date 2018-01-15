@@ -1,0 +1,21 @@
+baseURL = "https://yktsr.github.io/"
+languageCode = "ja"
+title = "Electric Sheep and Androids"
+theme = "hugo_theme_robust"
+
+[params]
+  description = "Someting, Someting"
+  #dateformat = "Jan 2, 2006" # Optional
+  # Fonts settings.
+  googlefonts = "https://fonts.googleapis.com/css?family=Lobster|Lato:400,700" # Optional, Include google fonts.
+  fontfamily = "Lato,YuGothic,'Hiragino Kaku Gothic Pro',Meiryo,sans-serif" # Optional, Override body font family.
+  logofontfamily = "Lobster, cursive" # Optional, Override logo font.
+
+[params.author]
+  thumbnail = "images/author.jpg"
+  name = "Yuki Katsura"
+  description = "<p>Security Tester</p><p>Engineer</p>"
+  #facebook = "https://www.facebook.com/xxxx"
+  twitter = "https://twitter.com/kryptos_nv"
+  github = "https://github.com/yktsr"
+
