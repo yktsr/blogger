@@ -8,7 +8,7 @@ hugo -t hugo_theme_robust
 # Go To Public folder
 cd public
 # Add changes to git.
-git add -A
+git add .
 
 # Commit changes.
 msg="rebuilding site `date`"
