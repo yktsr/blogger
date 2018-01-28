@@ -2,7 +2,7 @@
 title: "AES CBCモードで初期化ベクトルと鍵を指定して暗号化・復号"
 date: 2018-01-22T15:22:10+09:00
 categories: [POST, Security]
-thumbnail: "images/author.jpg" 
+thumbnail: "images/cat21908.jpg" 
 toc: true 
 ---
 

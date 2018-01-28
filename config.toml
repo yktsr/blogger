@@ -3,6 +3,7 @@ languageCode = "ja"
 title = "Electric Sheep and Androids"
 theme = "hugo_theme_robust"
 hasCJKLanguage = true
+pygmentsUseClassic=true
 
 [params]
   description = "Someting, Someting"
