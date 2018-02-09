@@ -23,6 +23,7 @@ $ openssl req -x509 -nodes -new -keyout tmp.key -out tmp.pem -days 3600 -newkey 
 1. 証明書表示
 ```
 $ openssl x509 -text < tmp.crt
+$ openssl s_client -showcerts -connect google.com:443
 ```
 
 1. pem から der へ変換
