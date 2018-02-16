@@ -59,6 +59,11 @@ $ openssl ca -gencrl -revoke cert.pem -config openssl.conf
 $ openssl ca -gencrl -out revoked.crl -config openssl.conf
 ```
 
+1. revoke検証
+```
+$ openssl verify -crl_check -verbose -CAfile <(cat rootCA.pem crl.pem) server.pem
+```
+
 1. ocsp responder
 ```
 $ openssl ocsp -index index.txt -CA cacert.pem -rsigner cacert.pem -rkey private/cakey.pem -port 80
