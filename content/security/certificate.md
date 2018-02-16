@@ -61,7 +61,7 @@ $ openssl ca -gencrl -out revoked.crl -config openssl.conf
 
 1. revoke検証
 ```
-$ openssl verify -crl_check -verbose -CAfile <(cat rootCA.pem crl.pem) server.pem
+$ openssl verify -crl_check_all -verbose -CAfile <(cat rootCA.pem crl.pem) server.pem
 ```
 
 1. ocsp responder
