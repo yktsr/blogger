@@ -19,8 +19,11 @@ toc: true
 ```
 $ openssl req -x509 -nodes -new -keyout tmp.key -out tmp.pem -days 3600 -newkey rsa:2048 -sha512 -subj "/C=CountryName/ST=StateOrProvinceName/L=LocalityName/O=OrganaizationName/OU=OrganizationalUnit/CN=CommanName"
 ```
+
 1. 証明書署名要求と秘密鍵を作る
+```
 $ openssl req -new -newkey rsa:4096 -sha512 -nodes -keyout cert.key -out cert.csr
+```
 
 1. 証明書表示
 ```
