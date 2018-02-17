@@ -4,6 +4,7 @@ date: 2018-02-12T02:19:49+09:00
 categories: [POST, Other]
 thumbnail: "images/author.jpg" 
 toc: true 
+draft: true
 ---
 
 # Docker上にfreeradiusを建てようとした備忘録
