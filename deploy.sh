@@ -7,6 +7,9 @@ hugo -t hugo_theme_robust
 
 # Go To Public folder
 cd public
+
+git pull origin master
+
 # Add changes to git.
 git add .
 
